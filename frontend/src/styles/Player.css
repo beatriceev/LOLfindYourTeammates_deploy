@@ -1,0 +1,233 @@
+html, body {
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+.Player-Image-Background {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Player-Profile-Frame {
+    /* background-color: blue; */
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+
+    width: 38%;
+    height: 100%;
+    padding: 10%;
+    float: left;
+    overflow: auto; 
+}
+
+.Player-Profile-Picture-Frame {
+    /* background-color: yellow; */
+    display: flex;
+    width: 100%;
+    height: 30%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.Player-Profile-Picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    border: 4px solid #8B00FF;
+}
+
+/* .Player-Profile-Bio-Frame {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.Player-Profile-Name-Frame {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+
+    gap: 20px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.Player-Profile-Name {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 160%;
+    text-align: right;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.Player-Profile-Lanes {
+    /* width: 40%;  */
+    right: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Player-Profile-Type {
+    height: 25px;
+}
+
+.Player-Profile-Bio {
+    margin: 0;
+    padding-bottom: 10%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 100%;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Player-Facebook-Frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 20%;
+}
+
+.Player-Facebook {
+    width: 12%;
+    height: auto;
+}
+
+.Player-Profile-Rank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+}
+
+.Player-Profile-Rank-Image {
+    width: 100%;
+}
+
+.Player-Heroes-Frame {
+    background: url("../images/wallpaper3.jpg");
+    background-size: cover;
+    position: fixed;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    /* position: relative; */
+    /* background-color: rgb(83, 119, 186); */
+    /* width: 100%;
+    height: 100%; */
+    margin: 0;
+    padding: 5% 6% 10% 16%;
+    row-gap: 10%;
+    column-gap: 15%;
+    overflow-y: auto;
+    /* justify-content: center;
+    text-align: center;
+    flex-direction: column; */
+
+    right: 0;
+    justify-content: center;
+    align-items: center;
+
+    width: 62%;
+    height: 100%;
+    float: right;
+    overflow: auto; 
+}
+
+.Player-Heroes-Frame-Gradient1 {
+    /* background: linear-gradient(900deg, rgba(16, 17, 20, 0) 39.58%, #101114 100%, #151619 100%); */
+    background: linear-gradient(90deg, #151619 56.08%, rgba(16, 17, 20, 0) 82.22%);
+
+    display: flex;
+    left: 0;
+    z-index: 1;
+
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    float: right;
+    overflow: auto; 
+}
+
+
+.Player-Heroes-Profile {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    /* min-width: 150px;
+    max-width: 350px;
+    min-height: 190px; */
+    border-radius: 20px;
+
+    background-color: #151619;
+    border: 1px solid #8B00FF;
+    box-shadow: 2px 2px 4px #8B00FF;
+    /* border-radius: 20px; */
+
+}
+
+.Player-Hero-Image {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.Player-Hero-Name-Frame {
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Player-Hero-Name {
+    margin: 0;
+    width: 100%;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80%;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}

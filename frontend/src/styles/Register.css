@@ -1,0 +1,138 @@
+html, body {
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+.Reg-Image-Background {
+
+    background: url("../images/wallpaper2.jpg");
+    background-size: fit;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.Reg-Form-Container {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    min-width: 500px;
+    overflow: hidden;
+}
+
+.Reg-Form-Background {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* padding: 12% 21% 8% 21%; */
+    padding: 12% 23% 8% 23%;
+    
+    background: rgba(16, 17, 20, 0.97);
+    border-radius: 20px;
+}
+
+.Reg-Form-Header {
+    /* margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 5%; */
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding-bottom: 5%;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 250%;
+    line-height: 65px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Reg-Forms-Frame {
+    padding-top: 3%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Reg-Form-Frame {
+    margin: 0;
+    padding-bottom: 2%;
+    width: 120%;
+}
+
+.Reg-Form-Name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 100%;
+
+    color: #FFFFFF;
+}
+
+.Reg-Form-Box {
+    background: #2B2D35 !important;
+    border: none;
+    height: 50px;
+
+    border-radius: 10px;
+
+    color: #FFFFFF;
+}
+
+.Reg-Form-Box:hover, .Reg-Form-Box:focus{
+    border: 2px solid #8B00FF !important; 
+}
+
+.Reg-Footer-Form-Frame {
+    margin: 0;
+    padding-top: 5%;
+    margin-bottom: 10%;
+    width: 120%;
+}
+
+.Reg-Form-Footer-Name-2 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+
+    color: #8B00FF;
+}
+
+.Reg-Button {
+    border-radius: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Reg-Button-Color {
+    background: #2B2D35;
+}

@@ -1,0 +1,75 @@
+type Player {
+  id: ID!
+  name: String!
+  lanes: [String!]!
+  heros: [String!]!
+  rank: String!
+  facebook: String
+}
+
+type Invitation {
+  _id: ID!
+  sender: String!
+  to: String!
+  date: String!
+  time: String!
+  message: String
+  read: Boolean!
+  ok: Boolean
+}
+
+input Filter {
+  name: String
+  lanes: [String]
+  rank: [String]
+}
+
+type Query {
+  players(filter: Filter!): [Player!]!
+  invitations: [Invitation!]!
+}
+
+input CreatePlayerInput {
+  id: ID!
+  name: String!
+  lanes: [String!]!
+  heros: [String!]!
+  rank: String!
+  facebook: String
+}
+
+input UpdatePlayerInput {
+  id: ID!
+  name: String!
+  lanes: [String!]!
+  heros: [String!]!
+  rank: String!
+  facebook: String
+}
+
+input CreateInvitationInput {
+  sender: String!
+  to: String!
+  date: String!
+  time: String!
+  message: String
+}
+
+input UpdateInvitationInput {
+  _id: ID!
+  ok: Boolean
+}
+
+type Mutation {
+  createPlayer(input: CreatePlayerInput!): Player
+  updatePlayer(input: UpdatePlayerInput!): Player
+  createInvitation(input: CreateInvitationInput!): Invitation
+  updateInvitation(input: UpdateInvitationInput!): Invitation
+}
+
+type Subscription {
+  playerCreated: Player!
+  playerUpdated: Player!
+  invitationCreated: Invitation!
+  invitationUpdated: Invitation!
+}

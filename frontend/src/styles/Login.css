@@ -1,0 +1,189 @@
+html, body {
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+.Image-Background {
+    background: url("../images/wallpaper4.jpg");
+    background-size: cover;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.Form-Container {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    min-width: 500px;
+    overflow: hidden;
+}
+
+.Form-Background {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 12% 21% 8% 21%;
+    
+    background: rgba(16, 17, 20, 0.97);
+    border-radius: 20px;
+}
+
+.Form-Header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding-bottom: 5%;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 250%;
+    line-height: 65px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Forms-Frame {
+    padding-top: 3%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form-Frame {
+    margin: 0;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.Form-Name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 100%;
+
+    color: #FFFFFF;
+}
+
+.Footer-Form-Frame {
+    margin: 0;
+    padding-top: 5%;
+    margin-bottom: 10%;
+    width: 100%;
+    background: #101114;
+}
+
+.Footer-Form {
+    background-color: #101114;
+}
+
+.Form-Footer-Name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+
+    color: #FFFFFF;
+    /* background-color: #101114; */
+}
+
+.Form-Footer-Name-2 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+
+    color: #8B00FF;
+    /* background-color: #101114; */
+}
+
+
+.Form-Box {
+    background: #2B2D35 !important;
+    border: none;
+    height: 50px;
+
+    border-radius: 10px;
+
+    color: #FFFFFF;
+}
+
+.Form-Box:hover, .Form-Box:focus {
+    border: 2px solid #8B00FF !important; 
+}
+
+
+.Footer-Frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Footer-Words {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 100%;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Button-Frame {
+    display: flex;
+}
+
+.Button {
+    border-radius: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Button-Color {
+    background: #2B2D35;
+}
+
+
+.Footer-Frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.ant-input {
+    background-color: #2B2D35;
+    color: #FFFFFF;
+    /* border-radius: 20px; */
+}

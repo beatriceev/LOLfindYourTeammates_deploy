@@ -1,0 +1,57 @@
+.Filter-Select {
+    width: 100%;
+    border-radius: 0;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Filter-Title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: white;
+}
+
+.Filter-Label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+
+    color: white;
+}
+
+.ant-select-selector:hover, .ant-select-selector:focus-within {
+    border: 2px solid #8B00FF !important;
+}
+
+.ant-select-selector {
+    color: white;
+    background-color: #2B2D35;
+}
+
+.ant-input {
+    background-color: #2B2D35;
+    color: #FFFFFF;
+    border: none;
+    /* border-radius: 20px; */
+}
+
+.ant-input input:hover {
+    border: none !important;
+}
+
+/* .ant-input:hover, .ant-input:focus {
+    border: 2px solid #8B00FF !important; 
+} */
+
+/* .ant-input input:hover {
+    border: none !important;
+} */
+
